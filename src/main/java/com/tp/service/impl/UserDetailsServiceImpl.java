@@ -19,7 +19,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private UserMapper userMapper;
     @Autowired
     private MenuMapper menuMapper;
-    //实现UserDetailsService接口，重写UserDetails方法，自定义用户的信息从数据中查询
+    //实现UserDetailsService接口，重写loadUserByUsername方法，自定义用户的信息从数据中查询
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         //认证，即校验用户是否存在 查询用户
