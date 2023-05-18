@@ -1,2 +1,2 @@
 # SpringSecurityEasyDemo
-studyDemo
+Learning demo
